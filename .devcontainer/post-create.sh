@@ -6,6 +6,10 @@ echo "==> Installing SQLite and Python 3"
 sudo apt-get update -qq
 sudo apt-get install -y -qq sqlite3 python3 python3-pip python3-venv >/dev/null
 
+echo "==> Fix ownership of Claude Code config volume"
+sudo mkdir -p "${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
+sudo chown -R "$(id -u):$(id -g)" "${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
+
 echo "==> Git defaults"
 git config --global init.defaultBranch main
 git config --global pull.rebase true
