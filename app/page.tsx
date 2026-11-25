@@ -11,7 +11,10 @@ export default function HomePage() {
       </p>
       <Counter />
       <p className="text-sm text-neutral-500">
-        Node {health.node} · API: <a className="underline" href="/api/health">/api/health</a>
+        Node {health.node} · API:{" "}
+        <a className="underline" href="/api/health">
+          /api/health
+        </a>
       </p>
     </main>
   );

@@ -10,18 +10,13 @@
     "memory": "8gb"
   },
   "remoteUser": "node",
-  "mounts": [
-    "source=claude-code-config-${devcontainerId},target=/home/node/.claude,type=volume"
-  ],
+  "mounts": ["source=claude-code-config-${devcontainerId},target=/home/node/.claude,type=volume"],
   "containerEnv": {
     "CLAUDE_CONFIG_DIR": "/home/node/.claude"
   },
   "postCreateCommand": "bash .devcontainer/post-create.sh",
   "postAttachCommand": "bash .devcontainer/welcome.sh",
-  "forwardPorts": [
-    3000,
-    5173
-  ],
+  "forwardPorts": [3000, 5173],
   "portsAttributes": {
     "3000": {
       "label": "Next.js",
@@ -34,9 +29,7 @@
   },
   "customizations": {
     "codespaces": {
-      "openFiles": [
-        "README.md"
-      ]
+      "openFiles": ["README.md"]
     },
     "vscode": {
       "extensions": [
