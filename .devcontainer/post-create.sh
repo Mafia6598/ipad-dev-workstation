@@ -2,9 +2,9 @@
 # Runs once when the codespace is created. Safe to re-run.
 set -euo pipefail
 
-echo "==> Installing SQLite CLI"
+echo "==> Installing SQLite and Python 3"
 sudo apt-get update -qq
-sudo apt-get install -y -qq sqlite3 >/dev/null
+sudo apt-get install -y -qq sqlite3 python3 python3-pip python3-venv >/dev/null
 
 echo "==> Git defaults"
 git config --global init.defaultBranch main
