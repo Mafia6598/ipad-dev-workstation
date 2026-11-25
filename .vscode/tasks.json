@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "✅ Проверка среды",
+      "type": "shell",
+      "command": "bash scripts/verify.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "▶️ Запустить сайт (npm run dev)",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "🧪 Проверка кода (npm run check)",
+      "type": "shell",
+      "command": "npm run check",
+      "problemMatcher": []
+    },
+    {
+      "label": "🤖 Claude Code",
+      "type": "shell",
+      "command": "claude",
+      "presentation": { "focus": true, "panel": "dedicated" },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # iPad Dev Workstation
 
 Облачная среда разработки для iPad: GitHub Codespaces + VS Code в браузере + Claude Code.
-Внутри: Node.js LTS, npm, Git, Python 3.12, TypeScript, Next.js, React, Tailwind, Vitest (на Vite),
-SQLite, Docker, GitHub CLI, Claude Code.
+Внутри: Node.js LTS, npm, Git, Python 3, TypeScript, Next.js, React, Tailwind, Vitest (на Vite),
+SQLite, GitHub CLI, Claude Code.
 
 ## Первый запуск
 1. На GitHub: **Code → Codespaces → Create codespace on main**. Первая сборка ~3–5 минут.
