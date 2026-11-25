@@ -1,0 +1,32 @@
+{
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.6,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
+  "editor.scrollbar.verticalScrollbarSize": 16,
+  "editor.scrollbar.horizontalScrollbarSize": 16,
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.exclude": { "**/.next": true, "**/node_modules": true },
+
+  "workbench.startupEditor": "none",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 6,
+  "workbench.tree.indent": 16,
+  "workbench.activityBar.location": "top",
+  "breadcrumbs.enabled": true,
+
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.scrollback": 5000,
+  "terminal.integrated.enablePersistentSessions": true,
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "git.autofetch": true,
+  "git.confirmSync": false
+}
